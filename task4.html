@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+   
+    <link rel="stylesheet" href="styleTask4.css">
+    <link rel="stylesheet" href="dropdown.css">
+	 <!-- This is the style for the grid -- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css"> -->
+   
+<script src="https://kit.fontawesome.com/b99e675b6e.js"></script>
+
+    <!-- This is just a font that we'll be using. You can remove lines 12-14 if you don't want to use Poppins -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet"> 
+    <title>Document</title>
+	
+<style type="text/css">
+
+html { scroll-behavior: smooth; }
+a{text-decoration:none }
+em:hover{color:#40BC4A ; font-size:20pt}
+
+ 
+</style>
+    
+      <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <script src="https://kit.fontawesome.com/a54d2cbf95.js"></script>
+  <link rel="stylesheet" href="style.css">
+ 
+</head>
+
+
+<body>
+
+<!-- Start of the header -->
+<header>
+        <div class="inner">
+        <div class="logo">
+            <div> <img src="logo-01.png" alt="Google logo"> </div>
+        </div>
+    
+          
+			<nav>
+                  <div class="menu"></div>
+                  <nav class="nav">
+                <li><span><a href=""><em> Home</em> </a></span></li>
+                <li><span><a href=""><em>About us</em></a></span> </li>
+                <li><span><a href="dropdown.html"><em>Dropdown</em></a></span> </li>
+                      
+                <li><span><a href="ourteam.html"><em> Our team</em></a></span></li>
+			
+<!--				
+<nav>
+               
+    <div class="Contact us">
+          <button>Contact us</button>
+          <ul>
+            <li><a href="#">Weather App</a></li>
+            <li><a href="#">Music App</a></li>
+            <li><a href="#">React App</a></li>
+            <li><a href="#">Youtube App</a></li>
+          </ul>
+        </div>   			 
+		
+</nav> 
+ -->           
+            </nav>
+            </nav>   
+            </div> 
+    
+    
+    
+    
+    
+    
+            </header> 
+            
+    <!-- End of the header --> 
+	<br>
+	 
+	<div class="headerofthegrid">
+	    <h1> Image Grid </h1>
+	    <p id="part1"> click </p>
+		<div class="icons" > 
+		      <i class="fa fa-square" onclick="full()"></i>
+		      <i class="fa fa-th-large "onclick="towColumn()"></i>
+		      <i class="fa fa-th "onclick="fourColumn()" ></i>		
+		
+		</div> 
+	</div>
+	
+	<div class="row" >
+	     <div id="column1">
+		     <img src="images/img-1.jpg" > 
+		     <img src="images/img-2.jpg" >
+		     <img src="images/img-3.jpg" >
+		     <img src="images/img-4.jpg" >
+		     <img src="images/img-5.jpg" >
+		     <img src="images/img-6.jpg" >
+		     <img src="images/img-7.jpg" >
+		     <img src="images/img-8.jpg" >
+		     <img src="images/img-9.jpg" >
+		     <img src="images/img-10.jpg" >
+		 </div>
+		 
+		 <div id="column2">
+		     <img src="images/img-11.jpg" >
+		     <img src="images/img-12.jpg" >
+		     <img src="images/img-13.jpg" >
+		     <img src="images/img-15.jpg" >
+		     <img src="images/img-16.jpg" >
+		     <img src="images/img-17.jpg" >
+		     <img src="images/img-18.jpg" >
+		     <img src="images/img-19.jpg" >
+		     <img src="images/img-20.jpg" >
+	
+		 </div>
+		 
+		 <div id="column3">
+		     <img src="images/img-21.jpg" >
+		     <img src="images/img-22.jpg" >
+		     <img src="images/img-23.jpg" >
+		     <img src="images/img-24.jpg" >
+		     <img src="images/img-25.jpg" >
+		     <img src="images/img-26.jpg" >
+		     <img src="images/img-27.jpg" >
+		     <img src="images/img-28.jpg" >
+		     <img src="images/img-29.jpg" >
+		     <img src="images/img-30.jpg" >
+		 </div>
+	</div>
+	
+	
+	<script >
+	    function full(){
+		    document.getElementById('column1').style.width='100%' ;
+		    document.getElementById('column2').style.width='100%' ;
+		    document.getElementById('column3').style.width='100%' ;   
+		}
+		
+		    function towColumn(){
+		    document.getElementById('column1').style.width='66.6%' ;
+		    document.getElementById('column2').style.width='66.6%' ;
+		    document.getElementById('column3').style.width='66.6%' ;   
+		}
+		
+		    function fourColumn(){
+		    document.getElementById('column1').style.width='33.3%' ;
+		    document.getElementById('column2').style.width='33.3%' ;
+		    document.getElementById('column3').style.width='33.3%' ;   
+		}
+	
+	</script> 
+	<!-- Start of the footer -->
+	<footer class="footer">
+       <div class="l-footer">
+          <h1> <img src="logo-01.png" alt=""></h1>
+	   </div>
+
+       <div class="b-footer">
+	   <!-- ****************Back to top button******************************8 -->
+	   <nav>
+	       <p> <a href="#part1" ><span><a href="" class="button"> Back to top </a></span> </a> </p>
+		</nav> 
+          <p>All rights reserved by ©AmeraYana Tarawneh 2022 </p>
+       </div>
+	   
+    </footer>
+	
+<a href="#" class="to-top">
+    <i class="fas fa-chevron-up"></i>
+  </a>
+
+  <script src="main.js"></script>
+
+</body>
+</html>
